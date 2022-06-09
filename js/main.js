@@ -12,7 +12,7 @@ function getRandomInteger (min, max) {
   if(max >= min) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   } else {
-      return 'Ooooops!';
+    return 'Ooooops!';
   } //Вообще не знаю, что здесь придумать!
 }
 
@@ -37,11 +37,11 @@ function getStringLength (comment, maxL) {
   if(comment.length <= maxL) {
     return true;
   } else {
-      return false;
+    return false;
   }
 }
 
-getStringLength()
+getStringLength();
 
 /* Про length посмотрела здесь:
 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/length */
