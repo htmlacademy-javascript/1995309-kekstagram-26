@@ -31,8 +31,6 @@ https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Ma
 имя_функции(проверяемая_строка, максимальная_длина) */
 
 function getStringLength (comment, maxL) {
-  comment = 'Текст комментария';
-  maxL = 100;
 
   if(comment.length <= maxL) {
     return true;
